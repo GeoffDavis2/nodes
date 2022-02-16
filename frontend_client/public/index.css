@@ -1,0 +1,58 @@
+body {
+  margin: 5px;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 1.5em;
+  color: white;
+  /* font-size: medium; */
+  line-height: 1.2em;
+}
+
+.parent {
+  margin-left: 1em;
+}
+
+.selected {
+  background-color: Grey;  
+}
+
+.input-field {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 1.5em;
+  color: white;
+  border:none;
+  outline: none;
+  width: 100%;
+}
+
+.logout {
+  position: fixed;
+  font-size: small;
+  color: red;
+  right: 0px;
+}
+
+.logout>button {
+  color: red;
+  font-size: small;
+}
+
+.login-page {
+  color: greenyellow;
+}
+
+.login-page>button {
+  color: darkgreen;
+  margin: 5px;
+  font-size: x-large;
+}
+
+.login-page .err-msg {
+  color: red;
+}
+
+.first-node {
+  color: red;
+  font-size: x-large;
+}

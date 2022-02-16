@@ -1,0 +1,37 @@
+// TODO Get rid of updateDBnState??? check all places i make axios calls and do them all consistantly (where possible)
+
+// TODO - Add new Child Task
+// TODO     Maybe add logic so it looks at cursor (end or beginning) to decide if new node is child or sibling
+// TODO     Or maybe use Shift Alt Enter to do the different kinds of add node???
+
+// TODO Move any functions that I can to above NodeContextProvider (should still be able to include in useNodeContext) 
+// TODO - Change to use allNodes[thisNodeId] for fields instead of thisNode
+// TODO Change parameters/arguments (everywhere) to use _id instead of whole node???
+// TODO add alert if error on any/all api calls
+
+
+// TODO Is there a better way to make cursor go to begining of input on up/down arrow?
+// TODO make it so if cursor in middle of line, text after cursor becomes new item and that text is removed from current node (i.e. like a carriage return)
+
+
+Encrypt password to/from login and signup???
+
+add universal functions (useMemo or useCallback?)
+    getAll
+        setAllNodes(prev => prev = prev.filter(obj => obj._id !== theNode._id));
+        make sure it is updated when the dom changes (i.e. order of nodes changed, node added, or node deleted);
+        need to make sure it always represents the current state
+    getChildren (make this take _id, find best way to do this)
+
+
+// TODO - Add collapse/expand children
+// TODO - Add SVG icons: Todo, Done, Bullet, plain text (with invisible icon)
+// TODO - Add way to change type (bullet, todo, plain text)
+// TODO - Add reminder
+// TODO - Add speak reminder
+// TODO - Look at proposal for more
+// TODO - Put this on actual public website to see how well it works
+// TODO - Add "Tags" feature (for sorting and filtering)
+
+
+
